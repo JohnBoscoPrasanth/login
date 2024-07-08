@@ -1,0 +1,28 @@
+.button-container {
+  /* text-align: center; */
+  margin-top: 20px;
+  justify-content: left;
+  padding-left: 25px;
+}
+
+.next-button {
+  background-color: #ccc;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ccc;
+  width: 60%;
+  align-items: left;
+}
+
+.next-button:hover {
+  background-color: #bbb;
+}
+
+.next-button:disabled {
+  background-color: #eee;
+  cursor: not-allowed;
+}
